@@ -1,16 +1,16 @@
 {
-    "manifest_version": 2,
-    "name": "EasyWPP",
-    "version": "1.1.0",
-    "description": "Envie mensagens no WhatsApp Web sem precisar salvar o contato! Selecione, clique com o botão direito e inicie a conversa.",
-    "permissions": ["contextMenus"],
-    "icons": {
-      "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
-      "128": "images/icon-128.png"
-    },
-    "background": {
-    "service_worker": "background.js",
-    "type": "module"
+  "manifest_version": 2,
+  "name": "EasyWPP",
+  "version": "1.1.0",
+  "description": "Envie mensagens no WhatsApp Web sem precisar salvar o contato! Selecione, clique com o botão direito e inicie a conversa.",
+  "permissions": ["contextMenus", "tabs"],
+  "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
   }
 }
