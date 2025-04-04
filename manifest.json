@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "EasyWPP",
     "version": "1.1.0",
     "description": "Envie mensagens no WhatsApp Web sem precisar salvar o contato! Selecione, clique com o botão direito e inicie a conversa.",
